@@ -3,7 +3,7 @@
 
 @import 'config';
 @import 'menu';
-
+ 
 
 *{
   box-sizing: border-box;
@@ -94,9 +94,9 @@ a{
   display: grid;
   grid-gap: 30px;
    grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr);
+  
+  'job';
+  grid-template-rows: 1fr;
 
   
 .bio-image{
